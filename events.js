@@ -16,7 +16,7 @@ const readOperandValues = () => {
         limits = undefined
         return
     }
-    limits = [max, min]
+    limits = [min, max]
     return limits
 }
 
