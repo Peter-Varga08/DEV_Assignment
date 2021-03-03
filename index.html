@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>SOWISO Assignment</title>
+</head>
+<body>
+    <div class="assignment">
+        <h1>Welcome to the developer assignment</h1>
+        <div class="description-block">
+            <p>Description:</p>
+            <p>This is a simple exercise on arithmetics. You will be asked to calculate the sum of two random numbers.
+                After clicking on the start button, you will have to submit an answer for which you are going to receive a feedback,
+                about whether it was correct or not.
+            </p>
+            <p>You may also set some parameters below for the exercise.</p>
+            <p>If you fail to give the correct answer, you may try again. Otherwise a new exercise will be generated on the next attempt.</p>
+        </div>
+
+        <div class="parameters-block">
+            <div id="minimum">
+                <label for="userinput-min">Min operand value:</label>
+                <input type="text" id="userinput-min" placeholder="0" value="0">
+            </div>
+            <div id="maximum">
+                <label for="userinput-min">Max operand value:</label>
+                <input type="text" id="userinput-max" placeholder="10" value="10">
+            </div>
+        </div>
+
+        <button id="btn-start">Start</button>
+    </div>
+    <script type="text/javascript" src="events.js"></script>
+</body>
+</html>
